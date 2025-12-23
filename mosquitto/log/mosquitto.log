@@ -1,0 +1,630 @@
+1765942199: mosquitto version 2.0.22 starting
+1765942199: Config loaded from /mosquitto/config/mosquitto.conf.
+1765942199: Opening ipv4 listen socket on port 1883.
+1765942199: mosquitto version 2.0.22 running
+1765942440: New connection from 172.19.0.1:50612 on port 1883.
+1765942441: New client connected from 172.19.0.1:50612 as mqttjs_68fa1053 (p2, c1, k60).
+1765943963: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1765943963: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1765943963: Warning: File /mosquitto/data//mosquitto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//mosquitto.db.new`.
+1765943963: Warning: File /mosquitto/data//mosquitto.db.new group is not mosquitto. Future versions will refuse to load this file.
+1765944965: Client mqttjs_68fa1053 closed its connection.
+1766437120: mosquitto version 2.0.22 starting
+1766437120: Config loaded from /mosquitto/config/mosquitto.conf.
+1766437120: Opening ipv4 listen socket on port 1883.
+1766437120: mosquitto version 2.0.22 running
+1766438007: mosquitto version 2.0.22 terminating
+1766438007: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1766438007: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1766438007: Warning: File /mosquitto/data//mosquitto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//mosquitto.db.new`.
+1766438007: Warning: File /mosquitto/data//mosquitto.db.new group is not mosquitto. Future versions will refuse to load this file.
+1766438011: mosquitto version 2.0.22 starting
+1766438011: Config loaded from /mosquitto/config/mosquitto.conf.
+1766438011: Opening ipv4 listen socket on port 1883.
+1766438011: Opening ipv6 listen socket on port 1883.
+1766438011: mosquitto version 2.0.22 running
+1766438210: New connection from 172.19.0.1:60740 on port 1883.
+1766438210: New client connected from 172.19.0.1:60740 as mqttjs_34f25136 (p2, c1, k60).
+1766438245: New connection from 172.19.0.1:60280 on port 1883.
+1766438245: New client connected from 172.19.0.1:60280 as mqttjs_ccd95c1e (p2, c1, k60).
+1766438245: Client mqttjs_ccd95c1e disconnected.
+1766438269: New connection from 172.19.0.1:53760 on port 1883.
+1766438269: New client connected from 172.19.0.1:53760 as mqttjs_e101369b (p2, c1, k60).
+1766438269: Client mqttjs_e101369b disconnected.
+1766438285: New connection from 172.19.0.1:55582 on port 1883.
+1766438285: New client connected from 172.19.0.1:55582 as mqttjs_cd6496a3 (p2, c1, k60).
+1766438285: Client mqttjs_cd6496a3 disconnected.
+1766438290: Client mqttjs_34f25136 closed its connection.
+1766438417: mosquitto version 2.0.22 terminating
+1766438417: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1766438417: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1766438417: Warning: File /mosquitto/data//mosquitto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//mosquitto.db.new`.
+1766438417: Warning: File /mosquitto/data//mosquitto.db.new group is not mosquitto. Future versions will refuse to load this file.
+1766438455: mosquitto version 2.0.22 starting
+1766438455: Config loaded from /mosquitto/config/mosquitto.conf.
+1766438455: Opening ipv4 listen socket on port 1883.
+1766438455: Opening ipv6 listen socket on port 1883.
+1766438455: mosquitto version 2.0.22 running
+1766438462: New connection from 172.19.0.1:58992 on port 1883.
+1766438462: New client connected from 172.19.0.1:58992 as mqttjs_0bbad31a (p2, c1, k60).
+1766438463: Client mqttjs_0bbad31a closed its connection.
+1766438471: New connection from 172.19.0.1:58118 on port 1883.
+1766438471: New connection from 172.19.0.1:58134 on port 1883.
+1766438471: Client <unknown> disconnected due to protocol error.
+1766438472: Client <unknown> disconnected due to protocol error.
+1766438472: New connection from 172.19.0.1:58138 on port 1883.
+1766438472: Client <unknown> disconnected due to protocol error.
+1766438472: New connection from 172.19.0.1:58152 on port 1883.
+1766438478: Client <unknown> closed its connection.
+1766438868: New connection from 172.19.0.1:53274 on port 1883.
+1766438868: New client connected from 172.19.0.1:53274 as mqtt-explorer-cd2bd3a7 (p2, c1, k60).
+1766438903: New connection from 172.19.0.1:52310 on port 1883.
+1766438903: New client connected from 172.19.0.1:52310 as mqttjs_0d172675 (p2, c1, k60).
+1766438903: Client mqttjs_0d172675 disconnected.
+1766438925: New connection from 172.19.0.1:53974 on port 1883.
+1766438925: New client connected from 172.19.0.1:53974 as mqttjs_4cee196c (p2, c1, k60).
+1766438925: Client mqttjs_4cee196c disconnected.
+1766438928: New connection from 172.19.0.1:36334 on port 1883.
+1766438928: New client connected from 172.19.0.1:36334 as mqttjs_87977559 (p2, c1, k60).
+1766438928: Client mqttjs_87977559 disconnected.
+1766438932: New connection from 172.19.0.1:36336 on port 1883.
+1766438932: New client connected from 172.19.0.1:36336 as mqttjs_21550db9 (p2, c1, k60).
+1766438932: Client mqttjs_21550db9 disconnected.
+1766440212: mosquitto version 2.0.22 terminating
+1766440212: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1766440212: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1766440212: Warning: File /mosquitto/data//mosquitto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//mosquitto.db.new`.
+1766440212: Warning: File /mosquitto/data//mosquitto.db.new group is not mosquitto. Future versions will refuse to load this file.
+1766440224: mosquitto version 2.0.22 starting
+1766440224: Config loaded from /mosquitto/config/mosquitto.conf.
+1766440224: Opening ipv4 listen socket on port 1883.
+1766440224: Opening ipv6 listen socket on port 1883.
+1766440224: mosquitto version 2.0.22 running
+1766440224: New connection from 172.19.0.1:38192 on port 1883.
+1766440224: New client connected from 172.19.0.1:38192 as mqtt-explorer-cd2bd3a7 (p2, c1, k60).
+1766440243: New connection from ::1:47442 on port 1883.
+1766440243: New client connected from ::1:47442 as auto-4BBCB735-F234-F12E-8B43-D9234631A720 (p2, c1, k60).
+1766440243: Client auto-4BBCB735-F234-F12E-8B43-D9234631A720 disconnected.
+1766440282: New connection from 172.19.0.1:37144 on port 1883.
+1766440282: New client connected from 172.19.0.1:37144 as mqttjs_d5b6e8a2 (p2, c1, k60).
+1766440289: New connection from ::1:41212 on port 1883.
+1766440289: New client connected from ::1:41212 as auto-80376F10-53A2-097E-8A43-114F00539D47 (p2, c1, k60).
+1766440289: Client auto-80376F10-53A2-097E-8A43-114F00539D47 disconnected.
+1766440458: Client mqttjs_d5b6e8a2 closed its connection.
+1766440506: New connection from 172.19.0.1:48866 on port 1883.
+1766440506: New client connected from 172.19.0.1:48866 as mqttjs_d1e5672f (p2, c1, k60).
+1766440515: Client mqttjs_d1e5672f closed its connection.
+1766440515: New connection from 172.19.0.1:34296 on port 1883.
+1766440515: New client connected from 172.19.0.1:34296 as mqttjs_c9cb3dd5 (p2, c1, k60).
+1766440544: Client mqttjs_c9cb3dd5 closed its connection.
+1766440544: New connection from 172.19.0.1:33634 on port 1883.
+1766440544: New client connected from 172.19.0.1:33634 as mqttjs_2c8ed64a (p2, c1, k60).
+1766440554: New connection from ::1:51056 on port 1883.
+1766440554: New client connected from ::1:51056 as auto-D93336BC-96C8-3236-3A15-2E33E10BF906 (p2, c1, k60).
+1766440554: Client auto-D93336BC-96C8-3236-3A15-2E33E10BF906 disconnected.
+1766440563: Client mqttjs_2c8ed64a closed its connection.
+1766440563: New connection from 172.19.0.1:47400 on port 1883.
+1766440563: New client connected from 172.19.0.1:47400 as mqttjs_9052b9c8 (p2, c1, k60).
+1766440570: New connection from ::1:49684 on port 1883.
+1766440570: New client connected from ::1:49684 as auto-07256BEC-0261-5CE6-D7E7-126022CBC8D1 (p2, c1, k60).
+1766440570: Client auto-07256BEC-0261-5CE6-D7E7-126022CBC8D1 disconnected.
+1766442025: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1766442025: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1766442025: Warning: File /mosquitto/data//mosquitto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//mosquitto.db.new`.
+1766442025: Warning: File /mosquitto/data//mosquitto.db.new group is not mosquitto. Future versions will refuse to load this file.
+1766443826: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1766443826: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1766443826: Warning: File /mosquitto/data//mosquitto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//mosquitto.db.new`.
+1766443826: Warning: File /mosquitto/data//mosquitto.db.new group is not mosquitto. Future versions will refuse to load this file.
+1766445626: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1766445626: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1766445626: Warning: File /mosquitto/data//mosquitto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//mosquitto.db.new`.
+1766445626: Warning: File /mosquitto/data//mosquitto.db.new group is not mosquitto. Future versions will refuse to load this file.
+1766446018: Client mqttjs_9052b9c8 closed its connection.
+1766446027: New connection from 172.19.0.1:55086 on port 1883.
+1766446027: New client connected from 172.19.0.1:55086 as mqttjs_94cd0b5b (p2, c1, k60).
+1766446040: Client mqttjs_94cd0b5b closed its connection.
+1766446161: New connection from 172.19.0.1:55206 on port 1883.
+1766446161: Client <unknown> disconnected due to protocol error.
+1766446162: New connection from 172.19.0.1:55216 on port 1883.
+1766446162: Client <unknown> disconnected due to protocol error.
+1766446163: New connection from 172.19.0.1:55230 on port 1883.
+1766446163: Client <unknown> disconnected due to protocol error.
+1766446164: New connection from 172.19.0.1:55240 on port 1883.
+1766446164: Client <unknown> disconnected due to protocol error.
+1766446165: New connection from 172.19.0.1:55244 on port 1883.
+1766446165: Client <unknown> disconnected due to protocol error.
+1766446166: New connection from 172.19.0.1:55246 on port 1883.
+1766446166: Client <unknown> disconnected due to protocol error.
+1766446167: New connection from 172.19.0.1:50026 on port 1883.
+1766446167: Client <unknown> disconnected due to protocol error.
+1766446168: New connection from 172.19.0.1:50036 on port 1883.
+1766446168: Client <unknown> disconnected due to protocol error.
+1766446169: New connection from 172.19.0.1:50042 on port 1883.
+1766446169: Client <unknown> disconnected due to protocol error.
+1766446170: New connection from 172.19.0.1:50048 on port 1883.
+1766446170: Client <unknown> disconnected due to protocol error.
+1766446183: New connection from 172.19.0.1:34086 on port 1883.
+1766446183: Client <unknown> disconnected due to protocol error.
+1766446184: New connection from 172.19.0.1:34094 on port 1883.
+1766446184: Client <unknown> disconnected due to protocol error.
+1766446185: New connection from 172.19.0.1:34110 on port 1883.
+1766446185: Client <unknown> disconnected due to protocol error.
+1766446186: New connection from 172.19.0.1:34118 on port 1883.
+1766446186: Client <unknown> disconnected due to protocol error.
+1766446187: New connection from 172.19.0.1:36440 on port 1883.
+1766446187: Client <unknown> disconnected due to protocol error.
+1766446188: New connection from 172.19.0.1:36456 on port 1883.
+1766446188: Client <unknown> disconnected due to protocol error.
+1766446189: New connection from 172.19.0.1:36464 on port 1883.
+1766446189: Client <unknown> disconnected due to protocol error.
+1766446190: New connection from 172.19.0.1:36478 on port 1883.
+1766446190: Client <unknown> disconnected due to protocol error.
+1766446191: New connection from 172.19.0.1:36480 on port 1883.
+1766446191: Client <unknown> disconnected due to protocol error.
+1766446192: New connection from 172.19.0.1:36488 on port 1883.
+1766446192: mosquitto version 2.0.22 terminating
+1766446192: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1766446192: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1766446192: Warning: File /mosquitto/data//mosquitto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//mosquitto.db.new`.
+1766446192: Warning: File /mosquitto/data//mosquitto.db.new group is not mosquitto. Future versions will refuse to load this file.
+1766446209: mosquitto version 2.0.22 starting
+1766446209: Config loaded from /mosquitto/config/mosquitto.conf.
+1766446209: Opening ipv4 listen socket on port 1883.
+1766446209: Opening ipv6 listen socket on port 1883.
+1766446209: Opening ipv4 listen socket on port 9001.
+1766446209: Opening ipv6 listen socket on port 9001.
+1766446209: mosquitto version 2.0.22 running
+1766446210: New connection from 172.19.0.1:51020 on port 1883.
+1766446210: New connection from 172.19.0.1:51036 on port 1883.
+1766446210: Client <unknown> disconnected due to protocol error.
+1766446210: Client mqtt-explorer-cd2bd3a7 disconnected, not authorised.
+1766446211: New connection from 172.19.0.1:51040 on port 1883.
+1766446211: Client <unknown> disconnected due to protocol error.
+1766446212: New connection from 172.19.0.1:51054 on port 1883.
+1766446212: Client <unknown> disconnected due to protocol error.
+1766446213: New connection from 172.19.0.1:51060 on port 1883.
+1766446213: Client <unknown> disconnected due to protocol error.
+1766446214: New connection from 172.19.0.1:51064 on port 1883.
+1766446214: Client <unknown> disconnected due to protocol error.
+1766446215: New connection from 172.19.0.1:51070 on port 1883.
+1766446215: Client <unknown> disconnected due to protocol error.
+1766446216: New connection from 172.19.0.1:51078 on port 1883.
+1766446216: Client <unknown> disconnected due to protocol error.
+1766446217: New connection from 172.19.0.1:51092 on port 1883.
+1766446217: Client <unknown> disconnected due to protocol error.
+1766446218: New connection from 172.19.0.1:48710 on port 1883.
+1766446218: Client <unknown> disconnected due to protocol error.
+1766446219: New connection from 172.19.0.1:48722 on port 1883.
+1766446219: Client <unknown> disconnected due to protocol error.
+1766446220: New connection from 172.19.0.1:48728 on port 1883.
+1766446220: Client <unknown> disconnected due to protocol error.
+1766446221: New connection from 172.19.0.1:48744 on port 1883.
+1766446221: Client <unknown> disconnected due to protocol error.
+1766446222: New connection from 172.19.0.1:48756 on port 1883.
+1766446222: Client <unknown> disconnected due to protocol error.
+1766446223: New connection from 172.19.0.1:48766 on port 1883.
+1766446223: Client <unknown> disconnected due to protocol error.
+1766446224: New connection from 172.19.0.1:48776 on port 1883.
+1766446224: Client <unknown> disconnected due to protocol error.
+1766446225: New connection from 172.19.0.1:48778 on port 1883.
+1766446225: Client <unknown> disconnected due to protocol error.
+1766446226: New connection from 172.19.0.1:48794 on port 1883.
+1766446226: Client <unknown> disconnected due to protocol error.
+1766446227: New connection from 172.19.0.1:48808 on port 1883.
+1766446227: Client <unknown> disconnected due to protocol error.
+1766446228: New connection from 172.19.0.1:49972 on port 1883.
+1766446228: Client <unknown> disconnected due to protocol error.
+1766446229: New connection from 172.19.0.1:49974 on port 1883.
+1766446229: Client <unknown> disconnected due to protocol error.
+1766446230: New connection from 172.19.0.1:49988 on port 1883.
+1766446230: Client <unknown> disconnected due to protocol error.
+1766446231: New connection from 172.19.0.1:50002 on port 1883.
+1766446231: Client <unknown> disconnected due to protocol error.
+1766446232: New connection from 172.19.0.1:50018 on port 1883.
+1766446232: Client <unknown> disconnected due to protocol error.
+1766446233: New connection from 172.19.0.1:50020 on port 1883.
+1766446233: Client <unknown> disconnected due to protocol error.
+1766446234: New connection from 172.19.0.1:50032 on port 1883.
+1766446234: Client <unknown> disconnected due to protocol error.
+1766446247: New connection from 172.19.0.1:45908 on port 9001.
+1766446247: Client <unknown> disconnected due to protocol error.
+1766446248: New connection from 172.19.0.1:52906 on port 9001.
+1766446248: Client <unknown> disconnected due to protocol error.
+1766446249: New connection from 172.19.0.1:52916 on port 9001.
+1766446249: Client <unknown> disconnected due to protocol error.
+1766446250: New connection from 172.19.0.1:52930 on port 9001.
+1766446250: Client <unknown> disconnected due to protocol error.
+1766446251: New connection from 172.19.0.1:52934 on port 9001.
+1766446251: Client <unknown> disconnected due to protocol error.
+1766446252: New connection from 172.19.0.1:52942 on port 9001.
+1766446252: Client <unknown> disconnected due to protocol error.
+1766446253: New connection from 172.19.0.1:52956 on port 9001.
+1766446253: Client <unknown> disconnected due to protocol error.
+1766446254: New connection from 172.19.0.1:52964 on port 9001.
+1766446254: Client <unknown> disconnected due to protocol error.
+1766446255: New connection from 172.19.0.1:52978 on port 9001.
+1766446255: Client <unknown> disconnected due to protocol error.
+1766446256: New connection from 172.19.0.1:52988 on port 9001.
+1766446256: Client <unknown> disconnected due to protocol error.
+1766446257: New connection from 172.19.0.1:52994 on port 9001.
+1766446257: Client <unknown> disconnected due to protocol error.
+1766446258: New connection from 172.19.0.1:40144 on port 9001.
+1766446258: Client <unknown> disconnected due to protocol error.
+1766446259: New connection from 172.19.0.1:40154 on port 9001.
+1766446259: Client <unknown> disconnected due to protocol error.
+1766446260: New connection from 172.19.0.1:40166 on port 9001.
+1766446260: Client <unknown> disconnected due to protocol error.
+1766446261: New connection from 172.19.0.1:40182 on port 9001.
+1766446261: Client <unknown> disconnected due to protocol error.
+1766446262: New connection from 172.19.0.1:40196 on port 9001.
+1766446262: Client <unknown> disconnected due to protocol error.
+1766446263: New connection from 172.19.0.1:40198 on port 9001.
+1766446263: Client <unknown> disconnected due to protocol error.
+1766446264: New connection from 172.19.0.1:40202 on port 9001.
+1766446264: Client <unknown> disconnected due to protocol error.
+1766446265: New connection from 172.19.0.1:40210 on port 9001.
+1766446265: Client <unknown> disconnected due to protocol error.
+1766446266: New connection from 172.19.0.1:40218 on port 9001.
+1766446266: Client <unknown> disconnected due to protocol error.
+1766446267: New connection from 172.19.0.1:42706 on port 9001.
+1766446267: Client <unknown> disconnected due to protocol error.
+1766446268: New connection from 172.19.0.1:42716 on port 9001.
+1766446268: Client <unknown> disconnected due to protocol error.
+1766446269: New connection from 172.19.0.1:42724 on port 9001.
+1766446269: Client <unknown> disconnected due to protocol error.
+1766446270: New connection from 172.19.0.1:42726 on port 9001.
+1766446270: Client <unknown> disconnected due to protocol error.
+1766446271: New connection from 172.19.0.1:42730 on port 9001.
+1766446271: Client <unknown> disconnected due to protocol error.
+1766446272: New connection from 172.19.0.1:42742 on port 9001.
+1766446272: Client <unknown> disconnected due to protocol error.
+1766446273: New connection from 172.19.0.1:42750 on port 9001.
+1766446273: Client <unknown> disconnected due to protocol error.
+1766446274: New connection from 172.19.0.1:42752 on port 9001.
+1766446274: Client <unknown> disconnected due to protocol error.
+1766446275: New connection from 172.19.0.1:42764 on port 9001.
+1766446275: Client <unknown> disconnected due to protocol error.
+1766446276: New connection from 172.19.0.1:42766 on port 9001.
+1766446276: Client <unknown> disconnected due to protocol error.
+1766446277: New connection from 172.19.0.1:45586 on port 9001.
+1766446277: Client <unknown> disconnected due to protocol error.
+1766446278: New connection from 172.19.0.1:45592 on port 9001.
+1766446278: Client <unknown> disconnected due to protocol error.
+1766446279: New connection from 172.19.0.1:45602 on port 9001.
+1766446279: Client <unknown> disconnected due to protocol error.
+1766446280: New connection from 172.19.0.1:45610 on port 9001.
+1766446280: Client <unknown> disconnected due to protocol error.
+1766446281: New connection from 172.19.0.1:45624 on port 9001.
+1766446281: Client <unknown> disconnected due to protocol error.
+1766446282: New connection from 172.19.0.1:45628 on port 9001.
+1766446282: Client <unknown> disconnected due to protocol error.
+1766446283: New connection from 172.19.0.1:45638 on port 9001.
+1766446283: Client <unknown> disconnected due to protocol error.
+1766446284: New connection from 172.19.0.1:45640 on port 9001.
+1766446284: Client <unknown> disconnected due to protocol error.
+1766446285: New connection from 172.19.0.1:45650 on port 9001.
+1766446285: Client <unknown> disconnected due to protocol error.
+1766446286: New connection from 172.19.0.1:45652 on port 9001.
+1766446286: Client <unknown> disconnected due to protocol error.
+1766446287: New connection from 172.19.0.1:41780 on port 9001.
+1766446287: Client <unknown> disconnected due to protocol error.
+1766446288: New connection from 172.19.0.1:41792 on port 9001.
+1766446288: Client <unknown> disconnected due to protocol error.
+1766446289: New connection from 172.19.0.1:41808 on port 9001.
+1766446289: Client <unknown> disconnected due to protocol error.
+1766446290: New connection from 172.19.0.1:41822 on port 9001.
+1766446290: Client <unknown> disconnected due to protocol error.
+1766446292: New connection from 172.19.0.1:41836 on port 9001.
+1766446292: Client <unknown> disconnected due to protocol error.
+1766446293: New connection from 172.19.0.1:41848 on port 9001.
+1766446293: Client <unknown> disconnected due to protocol error.
+1766446294: New connection from 172.19.0.1:41852 on port 9001.
+1766446294: Client <unknown> disconnected due to protocol error.
+1766446295: New connection from 172.19.0.1:41854 on port 9001.
+1766446295: Client <unknown> disconnected due to protocol error.
+1766446296: New connection from 172.19.0.1:41864 on port 9001.
+1766446296: Client <unknown> disconnected due to protocol error.
+1766446297: New connection from 172.19.0.1:41866 on port 9001.
+1766446297: Client <unknown> disconnected due to protocol error.
+1766446298: New connection from 172.19.0.1:55540 on port 9001.
+1766446298: Client <unknown> disconnected due to protocol error.
+1766446299: New connection from 172.19.0.1:55544 on port 9001.
+1766446299: Client <unknown> disconnected due to protocol error.
+1766446300: New connection from 172.19.0.1:55554 on port 9001.
+1766446300: Client <unknown> disconnected due to protocol error.
+1766446301: New connection from 172.19.0.1:55558 on port 9001.
+1766446301: Client <unknown> disconnected due to protocol error.
+1766446302: New connection from 172.19.0.1:55560 on port 9001.
+1766446302: Client <unknown> disconnected due to protocol error.
+1766446303: New connection from 172.19.0.1:55564 on port 9001.
+1766446303: Client <unknown> disconnected due to protocol error.
+1766446304: New connection from 172.19.0.1:55574 on port 9001.
+1766446304: Client <unknown> disconnected due to protocol error.
+1766446305: New connection from 172.19.0.1:55576 on port 9001.
+1766446305: Client <unknown> disconnected due to protocol error.
+1766446306: New connection from 172.19.0.1:55578 on port 9001.
+1766446306: Client <unknown> disconnected due to protocol error.
+1766446307: New connection from 172.19.0.1:55584 on port 9001.
+1766446307: Client <unknown> disconnected due to protocol error.
+1766446308: New connection from 172.19.0.1:46392 on port 9001.
+1766446308: Client <unknown> disconnected due to protocol error.
+1766446309: New connection from 172.19.0.1:46398 on port 9001.
+1766446309: Client <unknown> disconnected due to protocol error.
+1766446310: New connection from 172.19.0.1:46412 on port 9001.
+1766446310: Client <unknown> disconnected due to protocol error.
+1766446311: New connection from 172.19.0.1:46418 on port 9001.
+1766446311: Client <unknown> disconnected due to protocol error.
+1766446312: New connection from 172.19.0.1:46430 on port 9001.
+1766446312: Client <unknown> disconnected due to protocol error.
+1766446313: New connection from 172.19.0.1:46440 on port 9001.
+1766446313: Client <unknown> disconnected due to protocol error.
+1766446314: New connection from 172.19.0.1:46448 on port 9001.
+1766446314: Client <unknown> disconnected due to protocol error.
+1766446315: New connection from 172.19.0.1:46452 on port 9001.
+1766446315: Client <unknown> disconnected due to protocol error.
+1766446316: New connection from 172.19.0.1:46466 on port 9001.
+1766446316: Client <unknown> disconnected due to protocol error.
+1766446317: New connection from 172.19.0.1:46472 on port 9001.
+1766446317: Client <unknown> disconnected due to protocol error.
+1766446318: New connection from 172.19.0.1:34598 on port 9001.
+1766446318: Client <unknown> disconnected due to protocol error.
+1766446319: New connection from 172.19.0.1:34602 on port 9001.
+1766446319: Client <unknown> disconnected due to protocol error.
+1766446320: New connection from 172.19.0.1:34604 on port 9001.
+1766446320: Client <unknown> disconnected due to protocol error.
+1766446321: New connection from 172.19.0.1:34614 on port 9001.
+1766446321: Client <unknown> disconnected due to protocol error.
+1766446322: New connection from 172.19.0.1:34622 on port 9001.
+1766446322: Client <unknown> disconnected due to protocol error.
+1766446323: New connection from 172.19.0.1:34628 on port 9001.
+1766446323: Client <unknown> disconnected due to protocol error.
+1766446324: New connection from 172.19.0.1:34630 on port 9001.
+1766446324: Client <unknown> disconnected due to protocol error.
+1766446325: New connection from 172.19.0.1:34638 on port 9001.
+1766446325: Client <unknown> disconnected due to protocol error.
+1766446326: New connection from 172.19.0.1:34650 on port 9001.
+1766446326: Client <unknown> disconnected due to protocol error.
+1766446327: New connection from 172.19.0.1:54716 on port 9001.
+1766446327: Client <unknown> disconnected due to protocol error.
+1766446328: New connection from 172.19.0.1:54722 on port 9001.
+1766446328: Client <unknown> disconnected due to protocol error.
+1766446329: New connection from ::1:51262 on port 1883.
+1766446329: Client auto-DB235775-DF26-64F4-818F-49F6386D65F6 disconnected, not authorised.
+1766446329: New connection from 172.19.0.1:54736 on port 9001.
+1766446329: Client <unknown> disconnected due to protocol error.
+1766446330: New connection from 172.19.0.1:54740 on port 9001.
+1766446330: Client <unknown> disconnected due to protocol error.
+1766446331: New connection from 172.19.0.1:54756 on port 9001.
+1766446331: Client <unknown> disconnected due to protocol error.
+1766446332: New connection from 172.19.0.1:54768 on port 9001.
+1766446332: Client <unknown> disconnected due to protocol error.
+1766446333: New connection from 172.19.0.1:54774 on port 9001.
+1766446333: Client <unknown> disconnected due to protocol error.
+1766446334: New connection from 172.19.0.1:54780 on port 9001.
+1766446334: Client <unknown> disconnected due to protocol error.
+1766446335: New connection from 172.19.0.1:54796 on port 9001.
+1766446335: Client <unknown> disconnected due to protocol error.
+1766446336: New connection from 172.19.0.1:54806 on port 9001.
+1766446336: Client <unknown> disconnected due to protocol error.
+1766446337: New connection from 172.19.0.1:60962 on port 9001.
+1766446337: Client <unknown> disconnected due to protocol error.
+1766446338: New connection from 172.19.0.1:60972 on port 9001.
+1766446338: Client <unknown> disconnected due to protocol error.
+1766446339: New connection from 172.19.0.1:60982 on port 9001.
+1766446339: Client <unknown> disconnected due to protocol error.
+1766446340: New connection from 172.19.0.1:60984 on port 9001.
+1766446340: Client <unknown> disconnected due to protocol error.
+1766446341: New connection from 172.19.0.1:60994 on port 9001.
+1766446341: Client <unknown> disconnected due to protocol error.
+1766446342: New connection from 172.19.0.1:60998 on port 9001.
+1766446342: Client <unknown> disconnected due to protocol error.
+1766446343: New connection from 172.19.0.1:32772 on port 9001.
+1766446343: Client <unknown> disconnected due to protocol error.
+1766446344: New connection from 172.19.0.1:32784 on port 9001.
+1766446344: Client <unknown> disconnected due to protocol error.
+1766446345: New connection from 172.19.0.1:32798 on port 9001.
+1766446345: Client <unknown> disconnected due to protocol error.
+1766446346: New connection from 172.19.0.1:32810 on port 9001.
+1766446346: Client <unknown> disconnected due to protocol error.
+1766446347: New connection from 172.19.0.1:57878 on port 9001.
+1766446347: Client <unknown> disconnected due to protocol error.
+1766446348: New connection from 172.19.0.1:57888 on port 9001.
+1766446348: Client <unknown> disconnected due to protocol error.
+1766446349: New connection from 172.19.0.1:57900 on port 9001.
+1766446349: Client <unknown> disconnected due to protocol error.
+1766446350: New connection from 172.19.0.1:57904 on port 9001.
+1766446350: Client <unknown> disconnected due to protocol error.
+1766446351: New connection from 172.19.0.1:57920 on port 9001.
+1766446352: Client <unknown> disconnected due to protocol error.
+1766446352: New connection from ::1:35776 on port 1883.
+1766446352: Client auto-F896A8D0-8F03-7237-244F-86A9A05C194F disconnected, not authorised.
+1766446353: New connection from 172.19.0.1:57930 on port 9001.
+1766446353: Client <unknown> disconnected due to protocol error.
+1766446354: New connection from 172.19.0.1:57936 on port 9001.
+1766446354: Client <unknown> disconnected due to protocol error.
+1766446355: New connection from 172.19.0.1:57944 on port 9001.
+1766446355: Client <unknown> disconnected due to protocol error.
+1766446356: New connection from 172.19.0.1:57948 on port 9001.
+1766446356: Client <unknown> disconnected due to protocol error.
+1766446357: New connection from 172.19.0.1:57954 on port 9001.
+1766446357: Client <unknown> disconnected due to protocol error.
+1766446358: New connection from 172.19.0.1:44542 on port 9001.
+1766446358: Client <unknown> disconnected due to protocol error.
+1766446359: New connection from 172.19.0.1:44550 on port 9001.
+1766446359: Client <unknown> disconnected due to protocol error.
+1766446360: New connection from 172.19.0.1:44564 on port 9001.
+1766446360: Client <unknown> disconnected due to protocol error.
+1766446361: New connection from 172.19.0.1:44570 on port 9001.
+1766446361: Client <unknown> disconnected due to protocol error.
+1766446362: New connection from 172.19.0.1:44584 on port 9001.
+1766446362: Client <unknown> disconnected due to protocol error.
+1766446363: New connection from 172.19.0.1:44594 on port 9001.
+1766446363: Client <unknown> disconnected due to protocol error.
+1766446363: New connection from 172.19.0.1:44604 on port 9001.
+1766446363: Client mqttjs_f4bb00a1 disconnected, not authorised.
+1766446364: New connection from 172.19.0.1:44612 on port 9001.
+1766446364: Client mqttjs_f4bb00a1 disconnected, not authorised.
+1766446365: New connection from 172.19.0.1:44628 on port 9001.
+1766446365: Client mqttjs_f4bb00a1 disconnected, not authorised.
+1766446366: New connection from 172.19.0.1:44636 on port 9001.
+1766446366: Client mqttjs_f4bb00a1 disconnected, not authorised.
+1766446367: New connection from 172.19.0.1:40022 on port 9001.
+1766446367: Client mqttjs_f4bb00a1 disconnected, not authorised.
+1766446368: New connection from ::1:46292 on port 1883.
+1766446368: Client auto-920C584A-1D60-05A1-3ED6-F4BE9140BFAF disconnected, not authorised.
+1766446368: New connection from 172.19.0.1:40032 on port 9001.
+1766446368: Client mqttjs_f4bb00a1 disconnected, not authorised.
+1766446369: New connection from 172.19.0.1:40040 on port 9001.
+1766446369: Client mqttjs_f4bb00a1 disconnected, not authorised.
+1766446370: New connection from 172.19.0.1:40056 on port 9001.
+1766446370: Client mqttjs_f4bb00a1 disconnected, not authorised.
+1766446371: New connection from 172.19.0.1:40062 on port 9001.
+1766446371: Client mqttjs_f4bb00a1 disconnected, not authorised.
+1766446372: New connection from 172.19.0.1:40068 on port 9001.
+1766446372: Client mqttjs_f4bb00a1 disconnected, not authorised.
+1766446373: New connection from 172.19.0.1:40078 on port 9001.
+1766446373: Client mqttjs_f4bb00a1 disconnected, not authorised.
+1766446374: New connection from 172.19.0.1:40082 on port 9001.
+1766446374: Client mqttjs_f4bb00a1 disconnected, not authorised.
+1766446375: New connection from 172.19.0.1:40098 on port 9001.
+1766446375: Client mqttjs_f4bb00a1 disconnected, not authorised.
+1766446376: New connection from 172.19.0.1:40112 on port 9001.
+1766446376: Client mqttjs_f4bb00a1 disconnected, not authorised.
+1766446377: New connection from 172.19.0.1:38942 on port 1883.
+1766446377: Client mqttjs_897114a3 disconnected, not authorised.
+1766446378: New connection from 172.19.0.1:48492 on port 1883.
+1766446378: Client mqttjs_897114a3 disconnected, not authorised.
+1766446379: New connection from 172.19.0.1:48504 on port 1883.
+1766446379: Client mqttjs_897114a3 disconnected, not authorised.
+1766446380: New connection from 172.19.0.1:48510 on port 1883.
+1766446380: Client mqttjs_897114a3 disconnected, not authorised.
+1766446381: New connection from 172.19.0.1:48518 on port 1883.
+1766446381: Client mqttjs_897114a3 disconnected, not authorised.
+1766446382: New connection from 172.19.0.1:48530 on port 1883.
+1766446382: Client mqttjs_897114a3 disconnected, not authorised.
+1766446383: New connection from ::1:44194 on port 1883.
+1766446383: Client auto-068B1529-933E-45F2-F0A6-2C2AA7473565 disconnected, not authorised.
+1766446383: New connection from 172.19.0.1:48546 on port 1883.
+1766446383: Client mqttjs_897114a3 disconnected, not authorised.
+1766446384: New connection from 172.19.0.1:48554 on port 1883.
+1766446384: Client mqttjs_897114a3 disconnected, not authorised.
+1766446385: New connection from 172.19.0.1:48564 on port 1883.
+1766446385: Client mqttjs_897114a3 disconnected, not authorised.
+1766446386: New connection from 172.19.0.1:48580 on port 1883.
+1766446386: Client mqttjs_897114a3 disconnected, not authorised.
+1766446387: New connection from 172.19.0.1:34744 on port 1883.
+1766446387: Client mqttjs_897114a3 disconnected, not authorised.
+1766446388: New connection from 172.19.0.1:34756 on port 1883.
+1766446388: Client mqttjs_897114a3 disconnected, not authorised.
+1766446389: New connection from 172.19.0.1:34762 on port 1883.
+1766446389: Client mqttjs_897114a3 disconnected, not authorised.
+1766446390: New connection from 172.19.0.1:34778 on port 1883.
+1766446390: Client mqttjs_897114a3 disconnected, not authorised.
+1766446391: New connection from 172.19.0.1:34784 on port 1883.
+1766446391: Client mqttjs_897114a3 disconnected, not authorised.
+1766446392: New connection from 172.19.0.1:34794 on port 1883.
+1766446392: Client mqttjs_897114a3 disconnected, not authorised.
+1766446393: New connection from 172.19.0.1:34802 on port 1883.
+1766446393: Client mqttjs_897114a3 disconnected, not authorised.
+1766446394: New connection from 172.19.0.1:34816 on port 1883.
+1766446394: Client mqttjs_897114a3 disconnected, not authorised.
+1766446395: New connection from 172.19.0.1:34820 on port 1883.
+1766446395: Client mqttjs_897114a3 disconnected, not authorised.
+1766446397: New connection from 172.19.0.1:34836 on port 1883.
+1766446397: Client mqttjs_897114a3 disconnected, not authorised.
+1766446398: New connection from 172.19.0.1:56916 on port 1883.
+1766446398: Client mqttjs_897114a3 disconnected, not authorised.
+1766446399: New connection from 172.19.0.1:56932 on port 1883.
+1766446399: Client mqttjs_897114a3 disconnected, not authorised.
+1766446400: New connection from 172.19.0.1:56940 on port 1883.
+1766446400: Client mqttjs_897114a3 disconnected, not authorised.
+1766446401: New connection from 172.19.0.1:56946 on port 1883.
+1766446401: Client mqttjs_897114a3 disconnected, not authorised.
+1766446402: New connection from 172.19.0.1:56954 on port 1883.
+1766446402: Client mqttjs_897114a3 disconnected, not authorised.
+1766446403: New connection from 172.19.0.1:56962 on port 1883.
+1766446403: Client mqttjs_897114a3 disconnected, not authorised.
+1766446404: New connection from 172.19.0.1:56976 on port 1883.
+1766446404: Client mqttjs_897114a3 disconnected, not authorised.
+1766446405: New connection from 172.19.0.1:56988 on port 1883.
+1766446405: Client mqttjs_897114a3 disconnected, not authorised.
+1766446406: New connection from 172.19.0.1:57002 on port 1883.
+1766446406: Client mqttjs_897114a3 disconnected, not authorised.
+1766446407: New connection from 172.19.0.1:57014 on port 1883.
+1766446407: Client mqttjs_897114a3 disconnected, not authorised.
+1766446408: New connection from 172.19.0.1:50674 on port 1883.
+1766446408: Client mqttjs_897114a3 disconnected, not authorised.
+1766446409: New connection from 172.19.0.1:50688 on port 1883.
+1766446409: Client mqttjs_897114a3 disconnected, not authorised.
+1766446410: New connection from 172.19.0.1:50704 on port 1883.
+1766446410: Client mqttjs_897114a3 disconnected, not authorised.
+1766446411: New connection from 172.19.0.1:50718 on port 1883.
+1766446411: Client mqttjs_897114a3 disconnected, not authorised.
+1766446412: New connection from 172.19.0.1:50732 on port 1883.
+1766446412: Client mqttjs_897114a3 disconnected, not authorised.
+1766446413: New connection from 172.19.0.1:50746 on port 1883.
+1766446413: Client mqttjs_897114a3 disconnected, not authorised.
+1766446414: New connection from 172.19.0.1:50756 on port 1883.
+1766446414: Client mqttjs_897114a3 disconnected, not authorised.
+1766446415: New connection from 172.19.0.1:50766 on port 1883.
+1766446415: Client mqttjs_897114a3 disconnected, not authorised.
+1766446416: New connection from 172.19.0.1:50772 on port 1883.
+1766446416: Client mqttjs_897114a3 disconnected, not authorised.
+1766446417: New connection from 172.19.0.1:50778 on port 1883.
+1766446417: Client mqttjs_897114a3 disconnected, not authorised.
+1766446418: New connection from 172.19.0.1:45404 on port 1883.
+1766446418: Client mqttjs_897114a3 disconnected, not authorised.
+1766446419: New connection from 172.19.0.1:45416 on port 1883.
+1766446419: Client mqttjs_897114a3 disconnected, not authorised.
+1766446420: New connection from 172.19.0.1:45422 on port 1883.
+1766446420: Client mqttjs_897114a3 disconnected, not authorised.
+1766446421: New connection from 172.19.0.1:45428 on port 1883.
+1766446421: Client mqttjs_897114a3 disconnected, not authorised.
+1766446422: New connection from 172.19.0.1:45436 on port 1883.
+1766446422: Client mqttjs_897114a3 disconnected, not authorised.
+1766446423: mosquitto version 2.0.22 terminating
+1766446423: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1766446423: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1766446423: Warning: File /mosquitto/data//mosquitto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//mosquitto.db.new`.
+1766446423: Warning: File /mosquitto/data//mosquitto.db.new group is not mosquitto. Future versions will refuse to load this file.
+1766446432: mosquitto version 2.0.22 starting
+1766446432: Config loaded from /mosquitto/config/mosquitto.conf.
+1766446432: Opening ipv4 listen socket on port 1883.
+1766446432: Opening ipv6 listen socket on port 1883.
+1766446432: Opening websockets listen socket on port 9001.
+1766446432: mosquitto version 2.0.22 running
+1766446433: New connection from 172.19.0.1:60882 on port 1883.
+1766446433: New client connected from 172.19.0.1:60882 as mqttjs_897114a3 (p2, c1, k60).
+1766446442: New connection from ::1:49730 on port 1883.
+1766446442: New client connected from ::1:49730 as auto-B10AB92A-141B-8FEE-5C9A-5B0962B9B78A (p2, c1, k60).
+1766446442: Client auto-B10AB92A-141B-8FEE-5C9A-5B0962B9B78A disconnected.
+1766446450: Client mqttjs_897114a3 closed its connection.
+1766446457: New connection from ::1:34320 on port 1883.
+1766446457: New client connected from ::1:34320 as auto-621AA7D9-F0E3-30E0-6D68-355F64AA4929 (p2, c1, k60).
+1766446457: Client auto-621AA7D9-F0E3-30E0-6D68-355F64AA4929 disconnected.
+1766446540: New client connected from ::ffff:172.19.0.1:45814 as mqttjs_48dcb14a (p2, c1, k60).
+1766446551: New client connected from ::ffff:172.19.0.1:50004 as mqttjs_b4e15541 (p2, c1, k60).
+1766446643: Client mqttjs_48dcb14a closed its connection.
+1766448220: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1766448220: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1766448220: Warning: File /mosquitto/data//mosquitto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//mosquitto.db.new`.
+1766448220: Warning: File /mosquitto/data//mosquitto.db.new group is not mosquitto. Future versions will refuse to load this file.
+1766448220: Client mqttjs_b4e15541 closed its connection.
+1766448222: New client connected from ::ffff:172.19.0.1:44208 as mqttjs_1cd7c280 (p2, c1, k60).
+1766448423: Client mqttjs_1cd7c280 closed its connection.
+1766449992: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1766449992: Warning: File /mosquitto/data//mosquitto.db.new has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/data//mosquitto.db.new`.
+1766449992: Warning: File /mosquitto/data//mosquitto.db.new owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/data//mosquitto.db.new`.
+1766449992: Warning: File /mosquitto/data//mosquitto.db.new group is not mosquitto. Future versions will refuse to load this file.
