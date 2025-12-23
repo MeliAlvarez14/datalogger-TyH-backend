@@ -1,27 +1,23 @@
-const MQTT = require("mqtt");
 const express = require("express");
 const APP = express();
-const PORT = process.env.PORT || 1883;
-const MQTTURL =  process.env.MQTTURL || `ws://localhost:${PORT}`;
+const PORT = process.env.PORT || 3000;
+const clienteMqtt = require("./mqtt/mqttClient");
+const wss = require("./webSocket/webSocket");
 
 APP.use(express.json());
-APP.listen(PORT, async () => {
-    console.log(`App corriendo en el puerto ${PORT}`);
+
+APP.listen(PORT, () => {
+    console.log(`Backend y WebSockets corriendo en el puerto ${PORT}`);
 });
 
-const cliente = MQTT.connect(MQTTURL);
-cliente.on("connect", () => {
-    cliente.subscribe("INTI-DTMA/Lab/Corrosion", (err) => {
-        if(!err) {
-            console.log("Se suscribió al tópico correctamente");
-        } else {
-            console.log("Error al suscribirse al tópico.");
-        }
-    })
-})
 
-cliente.on("message", (topico, mensaje) => {
-    console.log("Publicación de:", topico);
-    console.log(mensaje.toString());
-    //cliente.end();
+clienteMqtt.on("message", (topico, mensaje) => {
+    const payload = mensaje.toString();
+    console.log(`Publicación de ${topico}: ${payload}`);
+
+    wss.clients.forEach((cliente) => {
+        if(cliente.readyState === 1) {
+            cliente.send(payload);
+        }
+    });
 });
