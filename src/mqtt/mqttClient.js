@@ -1,6 +1,5 @@
 const MQTT = require("mqtt");
-const MQTTPORT = process.env.MQTTPORT || 1883
-const MQTTURL =  process.env.MQTTURL || `mqtt://localhost:${MQTTPORT}`;
+const MQTTURL = `mqtt://${process.env.MQTTURL}`; 
 
 const cliente = MQTT.connect(MQTTURL);
 
