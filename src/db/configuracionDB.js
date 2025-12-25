@@ -9,15 +9,15 @@ const client = new InfluxDB({ url, token });
 const writeApi = client.getWriteApi(org, bucket);
 
 const persistirMedicion = (datos) => {
-    if (datos.T === undefined || datos.H === undefined) {
+    if (datos.temp === undefined || datos.hum === undefined) {
         console.error("Datos incompletos recibidos del ESP32:", datos);
         return;
     }
 
     const punto = new Point('medicion_sensor')
-        .tag('device', datos.device || 'esp32_desconocido')
-        .floatField('temperatura', parseFloat(datos.T)) 
-        .floatField('humedad', parseFloat(datos.H));  
+        .tag('device', datos.id || 'esp32_desconocido')
+        .floatField('temperatura', parseFloat(datos.temp)) 
+        .floatField('humedad', parseFloat(datos.hum));  
 
     try {
         writeApi.writePoint(punto);
