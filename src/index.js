@@ -1,27 +1,34 @@
 require('dotenv').config();
-const express = require("express");
-const APP = express();
+const EXPRESS = require("express");
+const HTTP = require("http");
+const APP = EXPRESS();
 const PORT = process.env.PORT || 3000;
+const SERVIDOR = HTTP.createServer(APP);
 const clienteMqtt = require("./mqtt/mqttClient");
-const wss = require("./webSocket/webSocket");
+const iniciarWs = require("./webSocket/webSocket");
+const wss = iniciarWs(SERVIDOR);
 const persistirMedicion = require("./db/configuracionDB");
 
-APP.use(express.json());
+APP.use(EXPRESS.json());
 
-APP.listen(PORT, () => {
+SERVIDOR.listen(PORT, () => {
     console.log(`Backend y WebSockets corriendo en el puerto ${PORT}`);
 });
 
 clienteMqtt.on("message", (topico, mensaje) => {
-    const payload = mensaje.toString();
-    const objetoPayload = JSON.parse(payload);
-    console.log(`Publicación de ${topico}: ${payload}`);
+    try {
+        const payload = mensaje.toString();
+        const objetoPayload = JSON.parse(payload);
+        console.log(`Publicación de ${topico}: ${payload}`);
 
-    persistirMedicion(objetoPayload);
+        persistirMedicion(objetoPayload);
 
-    wss.clients.forEach((cliente) => {
-        if(cliente.readyState === 1) {
-            cliente.send(payload);
-        }
-    });
+        wss.clients.forEach((cliente) => {
+            if(cliente.readyState === 1) {
+                cliente.send(payload);
+            }
+        });
+    } catch (err) {
+        console.error("Error al procesar mensaje", err.mensaje);
+    }
 });
