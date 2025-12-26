@@ -1,3 +1,4 @@
 const nodoRoutes = require("./nodoRoutes");
+const usuarioRoutes = require("./usuarioRoutes");
 
-module.exports = { nodoRoutes };
+module.exports = { nodoRoutes, usuarioRoutes };
