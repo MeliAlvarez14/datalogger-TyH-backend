@@ -6,6 +6,7 @@ const BODYPARSER = require("body-parser");
 const APP = EXPRESS();
 const PORT = process.env.PORT || 3000;
 const SERVIDOR = HTTP.createServer(APP);
+const DB = require('./db/pg/models');
 const clienteMqtt = require("./mqtt/mqttClient");
 const iniciarWs = require("./webSocket/webSocket");
 const wss = iniciarWs(SERVIDOR);
@@ -18,8 +19,11 @@ APP.use(CORS());
 APP.use("/api/nodos", nodoRoutes);
 APP.use("/api/usuarios", usuarioRoutes);
 
-SERVIDOR.listen(PORT, () => {
+SERVIDOR.listen(PORT, async () => {
     console.log(`Backend y WebSockets corriendo en el puerto ${PORT}`);
+    await DB.sequelize.sync(
+    //{force: true}
+  );
 });
 
 clienteMqtt.on("message", (topico, mensaje) => {
