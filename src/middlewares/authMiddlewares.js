@@ -7,11 +7,12 @@ const authMiddleware = (req, res, next) => {
 
   try {
     const payload = jwt.verify(token, SECRET);
-    req.user = payload; 
+    req.user = { id: payload.id };
     next();
   } catch (err) {
-    res.status(401).json({ message: "Token inválido" });
+    return res.status(401).json({ message: "Token inválido" });
   }
 };
 
 module.exports = authMiddleware;
+
