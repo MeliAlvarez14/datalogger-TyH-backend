@@ -2,6 +2,7 @@ require('dotenv').config();
 const EXPRESS = require("express");
 const HTTP = require("http");
 const CORS = require("cors");
+const BODYPARSER = require("body-parser");
 const APP = EXPRESS();
 const PORT = process.env.PORT || 3000;
 const SERVIDOR = HTTP.createServer(APP);
@@ -12,6 +13,7 @@ const { persistirMedicion } = require("./db/configuracionDB");
 const { nodoRoutes, usuarioRoutes } = require("./routes");
 
 APP.use(EXPRESS.json());
+APP.use(BODYPARSER.json());
 APP.use(CORS());
 APP.use("/api/nodos", nodoRoutes);
 APP.use("/api/usuarios", usuarioRoutes);
