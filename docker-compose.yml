@@ -15,6 +15,19 @@ services:
       - DOCKER_INFLUXDB_INIT_BUCKET=laboratorios_data
       - DOCKER_INFLUXDB_INIT_ADMIN_TOKEN=tokensecreto
 
+  postgres:
+    image: postgres
+    container_name: postgres
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: admin123
+      POSTGRES_DB: EnviroLab
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+
 volumes:
   influxdb_data:
   influxdb_config:
+  postgres-data:
