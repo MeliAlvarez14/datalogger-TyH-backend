@@ -1,15 +1,19 @@
 require('dotenv').config();
 const EXPRESS = require("express");
 const HTTP = require("http");
+const CORS = require("cors");
 const APP = EXPRESS();
 const PORT = process.env.PORT || 3000;
 const SERVIDOR = HTTP.createServer(APP);
 const clienteMqtt = require("./mqtt/mqttClient");
 const iniciarWs = require("./webSocket/webSocket");
 const wss = iniciarWs(SERVIDOR);
-const persistirMedicion = require("./db/configuracionDB");
+const { persistirMedicion } = require("./db/configuracionDB");
+const { nodoRoutes } = require("./routes");
 
 APP.use(EXPRESS.json());
+APP.use(CORS());
+APP.use("/api/nodos", nodoRoutes);
 
 SERVIDOR.listen(PORT, () => {
     console.log(`Backend y WebSockets corriendo en el puerto ${PORT}`);
@@ -29,6 +33,6 @@ clienteMqtt.on("message", (topico, mensaje) => {
             }
         });
     } catch (err) {
-        console.error("Error al procesar mensaje", err.mensaje);
+        console.error("Error al procesar mensaje", err.message);
     }
 });
