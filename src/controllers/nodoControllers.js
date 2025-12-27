@@ -10,10 +10,10 @@ const getHistorialNodo = async(req, res) => {
         if (start && stop) {
             datos = await obtenerHistorial(id, { start, stop });
         } else {
-            const datos = await obtenerHistorial(id, rango);
+            datos = await obtenerHistorial(id, rango);
         }
         res.json(datos);
-        console.log("accediendo a historial", datos);
+        console.log("Accediendo a historial", datos);
     } catch (error) {
         console.error(error);
         res.status(500).json({ error: 'Error al consultar InfluxDB' });

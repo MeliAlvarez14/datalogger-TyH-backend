@@ -33,16 +33,19 @@ const persistirMedicion = (datos) => {
 };
 
 const obtenerHistorial = async (deviceId, rango) => {
-    const timeMapping = {
-        '24h': '-24h',
-        '7d': '-7d',
-        '30d': '-30d'
-    };
-    const start = timeMapping[rango] || '-7d';
+    let startQuery;
+
+    if (typeof rango === 'object' && rango.start && rango.stop) {
+        startQuery = `start: ${new Date(rango.start).toISOString()}, stop: ${new Date(rango.stop).toISOString()}`;
+    } else {
+        const timeMapping = { '24h': '-24h', '7d': '-7d', '30d': '-30d' };
+        const s = timeMapping[rango] || '-7d';
+        startQuery = `start: ${s}`;
+    }
 
     const query = `
         from(bucket: "${bucket}")
-        |> range(start: ${start})
+        |> range(${startQuery})
         |> filter(fn: (r) => r["_measurement"] == "medicion_sensor")
         |> filter(fn: (r) => r["id"] == "${deviceId}")
         |> aggregateWindow(every: 1m, fn: mean, createEmpty: false)
@@ -61,7 +64,13 @@ const obtenerHistorial = async (deviceId, rango) => {
                 });
             },
             error(e) { reject(e); },
-            complete() { resolve(results); },
+            complete() { 
+                if (typeof rango === 'object' && rango.start && rango.stop && results.length === 0) {
+                    resolve({ data: [], error: 'No se encontraron mediciones para el rango de fechas seleccionado. Por favor, elija otro rango.' });
+                } else {
+                    resolve({ data: results });
+                }
+             },
         });
     });
 };
