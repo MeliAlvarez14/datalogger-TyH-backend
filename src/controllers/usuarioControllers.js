@@ -24,8 +24,6 @@ const loguearUsuario = async (req, res) => {
     if (!user || !user.password) {
         return res.status(400).json({ message: "Usuario no encontrado o sin contraseña" });
     }
-    console.log(user.password);
-
 
     const valid = await bcrypt.compare(password, user.password);
     if (!valid)
@@ -35,7 +33,7 @@ const loguearUsuario = async (req, res) => {
       expiresIn: "1h",
     });
     res.json({
-      user: { nombre: user.nombre, apellido: user.apellido, email: user.email },
+      user: { id: user.id, nombre: user.nombre, apellido: user.apellido, email: user.email },
       token,
     });
   } catch (err) {
@@ -71,6 +69,7 @@ const registrarUsuario = async (req, res) => {
     });
     res.json({
       user: {
+        id: newUser.id,
         nombre: newUser.nombre,
         apellido: newUser.apellido,
         email: newUser.email,
