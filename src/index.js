@@ -11,13 +11,14 @@ const clienteMqtt = require("./mqtt/mqttClient");
 const iniciarWs = require("./webSocket/webSocket");
 const wss = iniciarWs(SERVIDOR);
 const { persistirMedicion } = require("./db/configuracionDB");
-const { nodoRoutes, usuarioRoutes } = require("./routes");
+const { nodoRoutes, usuarioRoutes, sensorRoutes } = require("./routes");
 
 APP.use(EXPRESS.json());
 APP.use(BODYPARSER.json());
 APP.use(CORS());
 APP.use("/api/nodos", nodoRoutes);
 APP.use("/api/usuarios", usuarioRoutes);
+APP.use("/api/sensores", sensorRoutes);
 
 SERVIDOR.listen(PORT, async () => {
     console.log(`Backend y WebSockets corriendo en el puerto ${PORT}`);

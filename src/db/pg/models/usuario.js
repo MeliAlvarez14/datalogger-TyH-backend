@@ -10,7 +10,11 @@ module.exports = (sequelize, DataTypes) => {
      * The `models/index` file will call this method automatically.
      */
     static associate(models) {
-      // define association here
+      Usuario.belongsToMany(models.Sensor, {
+        through: 'UsuarioSensores',
+        foreignKey: 'userId',
+        as: 'SensoresVisibles'
+      });
     }
   }
   Usuario.init({
