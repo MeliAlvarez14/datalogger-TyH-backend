@@ -13,7 +13,7 @@ module.exports = (sequelize, DataTypes) => {
       Usuario.belongsToMany(models.Sensor, {
         through: 'UsuarioSensores',
         foreignKey: 'userId',
-        as: 'sensoresVisibles'
+        as: 'SensoresVisibles'
       });
     }
   }

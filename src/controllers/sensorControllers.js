@@ -1,17 +1,20 @@
-const { UsuarioSensor, Sensor, Usuario } = require("../db/pg/models");
+const { Sensor, Usuario } = require("../db/pg/models");
 
 const obtenerSensoresUsuario = async (req, res) => {
   try {
     const { userId } = req.params; 
     const usuario = await Usuario.findByPk(userId, {
-      include: { model: Sensor, as: "sensoresVisibles" },
+      include: { model: Sensor, as: "SensoresVisibles" },
     });
 
     if (!usuario) return res.status(404).json({ error: "Usuario no encontrado" });
 
-    res.json({
-      sensoresVisibles: usuario.sensoresVisibles.map((s) => ({ id: s.id, lab: s.lab })),
-    });
+    const data = usuario.SensoresVisibles.map((s) => ({
+        id: s.idDevice,
+        lab: s.laboratorio
+    }))
+
+    res.json(data);
   } catch (err) {
     console.error(err);
     res.status(500).json({ error: "Error al obtener sensores visibles" });
@@ -21,39 +24,40 @@ const obtenerSensoresUsuario = async (req, res) => {
 const registrarSensor = async (req, res) => {
   try {
     const { userId } = req.params;
-    const { id, lab } = req.body; 
+    const { idDevice, laboratorio } = req.body; 
 
     const [sensor] = await Sensor.findOrCreate({
-      where: { id },
-      defaults: { lab },
+      where: { idDevice },
+      defaults: { laboratorio },
     });
 
     const usuario = await Usuario.findByPk(userId);
     if (!usuario) return res.status(404).json({ error: "Usuario no encontrado" });
 
     await usuario.addSensoresVisibles(sensor);
-    res.json({ message: "Sensor registrado correctamente" });
+    res.json({ message: "Sensor registrado correctamente", sensor });
   } catch (err) {
     console.error(err);
     res.status(500).json({ error: "Error al registrar sensor" });
   }
 };
 
-const eliminarSensoresUsuario = async () => {
+const eliminarSensoresUsuario = async (req, res) => {
     try {
     const { userId, sensorId } = req.params;
 
-    const registro = await UsuarioSensor.findOne({
-      where: { userId, sensorId },
-    });
+    const usuario = await Usuario.findByPk(userId);
+    const sensor = await Sensor.findOne({ where: { idDevice: sensorId } });
 
-    if (!registro) return res.status(404).json({ message: "Sensor no encontrado para este usuario" });
+    if (!usuario || !sensor) {
+      return res.status(404).json({ message: "Usuario o Sensor no encontrado" });
+    }
+    await usuario.removeSensoresVisibles(sensor);
 
-    await registro.destroy();
-    res.json({ message: "Sensor eliminado correctamente" });
+    res.json({ message: "Sensor desvinculado correctamente" });
   } catch (err) {
     console.error(err);
-    res.status(500).json({ message: "Error al eliminar el sensor" });
+    res.status(500).json({ message: "Error al desvincular el sensor" });
   }
 };
 
