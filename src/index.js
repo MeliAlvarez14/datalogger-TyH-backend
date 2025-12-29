@@ -44,3 +44,4 @@ clienteMqtt.on("message", (topico, mensaje) => {
         console.error("Error al procesar mensaje", err.message);
     }
 });
+
